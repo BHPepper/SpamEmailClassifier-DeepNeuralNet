@@ -20,7 +20,11 @@ To **prevent overfitting**, generous **dropout layers** of 0.5 were implemented 
 
 To ensure **reproducible results**, all random seeds where set to 1: tf.random.set_seed() from tensorflow and np.random.seed() from numpy.
 
-Finally, an **early stopping** measure was implemented whereby the network would cease training after failing to lower the loss across 1000 epochs.
+Finally, an **early stopping** callback was implemented whereby the network would cease training after failing to lower the loss across 1000 epochs.
+
+## TensorBoard Guide:
+
+![alt text](https://github.com/BenjaminHPepper/DeepNeuralNet-Email-SpamClassifier/blob/master/tensor_board.png "Logo Title Text 1")
 
 # Results:
 
