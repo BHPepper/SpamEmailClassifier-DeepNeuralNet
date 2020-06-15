@@ -26,14 +26,11 @@ Finally, an **early stopping** measure was implemented whereby the network would
 
 The accuracy for the 4-folds of the cross validation:
 
-[0.9539530842745438,
- 0.9460869565217391,
- 0.9556521739130435,
- 0.9547826086956521]
+(0.9540, 0.9461, 0.9557, 0.9548)
  
 The mean accuracy across the 4-folds:
 
-0.9526187058512445
+0.9526
 
 # Analysis and Discussion:
 
