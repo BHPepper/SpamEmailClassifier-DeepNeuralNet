@@ -26,6 +26,8 @@ Finally, an **early stopping** callback was implemented whereby the network woul
 
 ![alt text](https://github.com/BenjaminHPepper/DeepNeuralNet-Email-SpamClassifier/blob/master/tensor_board.png "TensorBoard")
 
+To view the TensorBoards used to deduce the structure of the neural network and prevent overfitting and underfitting, type "tensorboard --logdir logs" on command line inside the parent directory of "logs".
+
 # Results:
 
 The accuracy for the 4-folds of the cross validation:
