@@ -24,7 +24,7 @@ Finally, an **early stopping** callback was implemented whereby the network woul
 
 ## TensorBoard Guide:
 
-![alt text](https://github.com/BenjaminHPepper/DeepNeuralNet-Email-SpamClassifier/blob/master/tensor_board.png "Logo Title Text 1")
+![alt text](https://github.com/BenjaminHPepper/DeepNeuralNet-Email-SpamClassifier/blob/master/tensor_board.png "TensorBoard")
 
 # Results:
 
