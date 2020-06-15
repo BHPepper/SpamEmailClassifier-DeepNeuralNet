@@ -4,7 +4,7 @@ Benjamin  Pepper
 
 # Introduction:
 
-The goal of this project was to train a neural network to classify emails as either "spam" or "nonspam". This was done on the provided Spambase dataset from the UCI Machine Learning Repository which contains 57 features representing the word frequency within 4601 emails. The response colume "type" is the only categorical variable with "spam" and "nonspam" as the two factors.
+The goal of this project was to train a neural network to classify emails as either "spam" or "nonspam". This was done on the provided Spambase dataset from the (UCI Machine Learning Repository)[https://archive.ics.uci.edu/ml/datasets/Spambase] which contains 57 features representing the word frequency within 4601 emails. The response colume "type" is the only categorical variable with "spam" and "nonspam" as the two factors.
 
 # Methods:
 
