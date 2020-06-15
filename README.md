@@ -26,6 +26,15 @@ Finally, an **early stopping** measure was implemented whereby the network would
 
 The accuracy for the 4-folds of the cross validation:
 
+[0.9539530842745438,
+ 0.9460869565217391,
+ 0.9556521739130435,
+ 0.9547826086956521]
+ 
+The mean accuracy across the 4-folds:
+
+0.9526187058512445
+
 # Analysis and Discussion:
 
 Despite the accuracy for fold 2 being slightly lower than the other three folds, all performed similarily. The mean accuracy of 95.26% is high; however, it should be noted that the classifier weighted the cost of making a false positive equal to that of a false negative. This may not be the case if we view filtering out genuine emails into the spam folder to be worse than leaving spam in the main folder. Then, we would want to weigh false positives more costly. 
