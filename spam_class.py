@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 @author: Ben Pepper
+@email: B.H.Pepper@gmail.com
+@LinkedIn: https://www.linkedin.com/in/benjamin-pepper-62936714b/
 """
 
 import numpy as np
