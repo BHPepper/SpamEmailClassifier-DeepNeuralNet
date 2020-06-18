@@ -1,4 +1,4 @@
-# DeepNeuralNet-Email-SpamClassifier
+# Deep Neural Network Spam Email Classifier
 
 Benjamin  Pepper
 
