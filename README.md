@@ -1,12 +1,16 @@
+Benjamin H Pepper
+
+B.H.Pepper@gmail.com
+
+https://www.linkedin.com/in/benjamin-pepper-62936714b/
+
 # Deep Neural Network Spam Email Classifier
 
-Benjamin  Pepper
-
-# Introduction:
+## Introduction:
 
 The goal of this project was to train a neural network to classify emails as either "spam" or "nonspam". This was done on the [Spambase dataset from the UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Spambase) which contains 57 features representing the word frequency within 4601 emails. The response colume "type" is the only categorical variable with "spam" and "nonspam" as the two factors.
 
-# Methods:
+## Methods:
 
 For the response variable "type", "spam" was encoded as 1 for the positive class and "nonspam" was encoded as 0 for the negative class.
 
@@ -22,13 +26,13 @@ To ensure **reproducible results**, all random seeds where set to 1: tf.random.s
 
 Finally, an **early stopping** callback was implemented whereby the network would cease training after failing to lower the loss across 1000 epochs.
 
-## TensorBoard Guide:
+### TensorBoard Guide:
 
 ![alt text](https://github.com/BenjaminHPepper/DeepNeuralNet-Email-SpamClassifier/blob/master/tensor_board.png "TensorBoard Example")
 To view the TensorBoards used to deduce the structure of the neural network and prevent overfitting and underfitting, type "tensorboard 
 --logdir logs" on command line inside the parent directory of "logs".
 
-# Results:
+## Results:
 
 The accuracy for the 4-folds of the cross validation:
 
@@ -38,6 +42,6 @@ The mean accuracy across the 4-folds:
 
 0.9526
 
-# Analysis and Discussion:
+## Analysis and Discussion:
 
 Despite the accuracy for fold 2 being slightly lower than the other three folds, all performed similarily. The mean accuracy of 95.26% is high; however, it should be noted that the classifier weighted the cost of making a false positive equal to that of a false negative. This may not be the case if we view filtering out genuine emails into the spam folder to be worse than leaving spam in the main folder. Then, we would want to weigh false positives more costly. 
