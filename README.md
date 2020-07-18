@@ -1,8 +1,8 @@
 Benjamin H Pepper
 
-B.H.Pepper@gmail.com
+BHPepper@gmail.com
 
-https://www.linkedin.com/in/benjamin-pepper-62936714b/
+[linkedin.com/in/BHPepper](https://www.linkedin.com/in/bhpepper/)
 
 # Deep Neural Network Spam Email Classifier
 
